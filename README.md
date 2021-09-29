@@ -64,12 +64,11 @@ Write-Host $env:PSModulePath
 
 ### Example Installation:
 
-1. Open a command prompt
+1. Open PowerShell
 
 ```
-cd %userprofile%\Documents\WindowsPowerShell\Modules
-git clone https://github.com/mbegan/Duo-PSModule.git Duo
-cd Duo
+Install-Module -Name InstallModuleFromGitHub
+Install-ModuleFromGitHub -GitHubRepo ryanhebert/Duo-PSModule
 notepad Duo_org.ps1
 ```
 
@@ -85,7 +84,7 @@ notepad Duo_org.ps1
 1. Use
 
 ```powershell 
-PS C:\> Import-Module Duo
+PS C:\> Import-Module Duo-PSModule
 PS C:\> $users = duoGetUser
 PS C:\> $users.Count
 10
