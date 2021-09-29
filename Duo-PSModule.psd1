@@ -1,9 +1,9 @@
 ﻿@{
 # Script module or binary module file associated with this manifest
-ModuleToProcess = 'Duo.psm1'
+ModuleToProcess = 'Duo-PSModule.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0001'
+ModuleVersion = '1.1'
 
 # ID used to uniquely identify this module
 GUID = 'c43305bd-6cdf-4a38-9b15-79ada42d9b9e'
@@ -74,7 +74,7 @@ AliasesToExport = ''
 ModuleList = @()
 
 # List of all files packaged with this module
-FileList = @('Duo.psm1','Duo.psd1','Duo_org.ps1')
+FileList = @('Duo-PSModule.psm1','Duo-PSModule.psd1','Duo_org.ps1')
 
 # Private data to pass to the module specified in ModuleToProcess
 PrivateData = ''
