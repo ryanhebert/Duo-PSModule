@@ -79,6 +79,8 @@ notepad Duo_org.ps1
   
 ### Basic Usage:
 
+Prior to using the Duo Admin API it is important that the server running PowerShell has it's time sychronized to a public NTP server. Information for how to do this can be found at the following link: https://www.action1.com/how-to-work-with-ntp-via-powershell-on-windows-systems/
+
 1. Launch powershell \(or even better, the powershell ise\)
 1. Import the Duo Module
 1. Use
